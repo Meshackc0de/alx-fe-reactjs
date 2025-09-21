@@ -7,8 +7,7 @@ import Header from './Header.jsx'
 import MainContent from './MainContent.jsx'
 import Footer from './Footer.jsx'
 import UserProfile from './components/UserProfile.jsx'
-import Counter from './components/counter.jsx'
-
+import Counter from './components/Counter.jsx'
 function App() {
 
   return (
