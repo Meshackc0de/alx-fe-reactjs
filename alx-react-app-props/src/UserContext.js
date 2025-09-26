@@ -1,5 +1,5 @@
 //initialize the create component
-import React, {createContext} from "react";
+import {createContext} from "react";
 
 const UserContext = createContext();
 
