@@ -1,4 +1,4 @@
-import { use, useState } from "react";
+import {  useState } from "react";
 // Counter component
 function Counter() {
     const [count, setCount] = useState(0);
@@ -6,10 +6,10 @@ function Counter() {
         <div>
             <button style ={{backgroundColor: 'blue', marginLeft: '8px'}} onClick={() => {
                 setCount(count + 1)
-            }}>Add Count</button>
+            }}>Increment</button>
             <button style ={{backgroundColor: 'blue', marginLeft: '8px'}} onClick={() => {
                 setCount(count - 1)
-            }}>Reduce Count</button>
+            }}>Decrement</button>
             <button style ={{backgroundColor: 'red', marginLeft: '8px'}}onClick ={() => {
                 setCount(0)
             }}>Reset</button>
