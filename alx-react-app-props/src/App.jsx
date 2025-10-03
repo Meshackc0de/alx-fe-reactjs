@@ -19,7 +19,7 @@ function App() {
       <Header />
       <MainContent />
       <UserContext.Provider value={userData}>
-      <ProfilePage/>
+        <ProfilePage/>
       </UserContext.Provider>
       <UserProfile name='M1000' age ={25} bio='Loves hiking and photography'/>
       <Footer />
