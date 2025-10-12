@@ -25,7 +25,7 @@ function RegistartionForm() {
             /><br/>
 
             <input type='password' placeholder='password' value={password}
-            onChange={(e) => setEmail(e.target.value)}
+            onChange={(e) => setPassword(e.target.value)}
             /> <br/>
             <button type='submit'>Register</button>
         </form>
