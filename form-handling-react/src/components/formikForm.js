@@ -13,7 +13,11 @@ const FormikForm = () => {
     return (
         <div>
             <Formik 
-                initialValue={{username: '', email: '', password: ''}}
+                initialValues={{
+                    username: '',
+                    email: '',
+                    password: ''
+                    }}
                 validationShema={validationSchema}
                 onSubmit={(values, { resetForm }) => {
                     console.log('Form submitted!', values);
