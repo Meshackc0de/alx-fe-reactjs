@@ -12,7 +12,7 @@ function RegistartionForm() {
         if (!username) {
             newErrors.username = 'username is required';
         }
-        if (!username) {
+        if (!email) {
             newErrors.email = 'Email is required';
         }
         if (!password) {
